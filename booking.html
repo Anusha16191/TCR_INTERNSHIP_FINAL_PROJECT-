@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+<body style="height: 1000px;">
+    <div class="form1" style="margin: 0%; position: relative ;left: 60%; top: 50px;">
+        <h1 style="text-align: center;">Booking Form</h1>
+    
+    <form action="#">
+        <div class="form-group" >
+            <label>Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+          </div>
+        <div class="form-group" >
+          <label>Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+        </div>
+        <div class="mb-3">
+            <label for="Address">Address</label>
+            <textarea id="address" name="address" rows="3" cols="50" class="form-control" required>
+            </textarea>
+          </div>
+          <div class="form-group" >
+            <label>Contact Number</label>
+            <input type="number" class="form-control" id="number" placeholder="Enter phone number" required>
+          </div>
+        <div class="form-group">
+          <label>Gender</label>
+          <input type="radio" name="gender" value="Male" ></input>
+          <label for="Male" >Male</label>
+          <input type="radio" name="gender" value="Female" ></input>
+          <label for="female" >Female</label>
+          <input type="radio" name="gender" value="others" ></input>
+          <label for="others" >others</label>
+        </div>
+        <div class="form-group">
+            <label>Meal Preference</label>
+            <input type="checkbox" name="meal" value="Vegetarian" ></input>
+            <label >Vegetarian</label>
+            <input type="checkbox" name="meal" value="Non-vegetarian" ></input>
+            <label >Non-vegetarian</label>
+          </div>
+          <label>Choice of trip</label>
+         <select style="width: 100%;" class="form-control">
+             <option>munnar</option>
+             <option>Wayanad</option>
+             <option>Cochin</option>
+             <option>Munroe-Island</option>
+             <option>Ashtamudi</option>
+             <option>Nelliampathy</option>
+             <option>Bekal</option>
+             <option>Guruvayur</option>
+             <option>Kozhikode</option>
+             <option>Kovalam</option>
+             <option>Kannur</option>
+             <option>Thekkady</option>
+             <option>Poovar</option>
+             <option>Marari</option>
+             <option>Malampuzha</option>
+             <option>Kuttanad</option>
+             <option>Varkala</option>
+             <option>Vagamon</option>
+             <option>Kumarakom</option>
+         </select>
+       <br>
+       <div id="date-picker-example" class="md-form md-outline input-with-post-icon datepicker">
+        <label for="example">Start date</label>
+
+        <input placeholder="Select date" type="date" id="example" class="form-control">
+        <i class="fas fa-calendar input-prefix" tabindex=0></i>
+      </div>
+      <div id="date-picker-example" class="md-form md-outline input-with-post-icon datepicker">
+        <label for="example">End date</label>
+
+        <input placeholder="Select date" type="date" id="example" class="form-control">
+        <i class="fas fa-calendar input-prefix" tabindex=0></i>
+      </div>
+      </form>
+      
+      <br>
+      <button class= "btn" type="submit" class="btn btn-primary" id="button">Submit</button>
+    </div>
+
+    <script src="authenticate.js"> </script>
+</body>
+</html>

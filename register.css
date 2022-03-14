@@ -1,0 +1,59 @@
+body{
+    
+    background-image: url("/images/register1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form1{
+    max-width: 500px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    background-color: rgba(0, 0, 0, .5);
+   color: white;
+ 
+    padding: 20px;
+    overflow-x: hidden;
+    
+    border: 6px inset rgb(107, 97, 240);
+}
+
+img{
+    height: 420px;
+}
+
+
+
+.form-control{
+    box-shadow: 3px 3px 3px rgb(91, 98, 194);
+}
+
+input{
+    width: 80%;
+    
+}
+h1{
+    color: rgb(116, 240, 141);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form-label{
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+}
+
+.btn{
+ color: white;
+ background-color: rgb(235, 235, 247);
+ box-shadow: 3px 3px 3px rgb(26, 78, 52);
+ align-items: center;
+ text-decoration: none;
+
+}
+.btn:hover{
+    background-color:rgb(96, 189, 96);
+    color: white;
+    text-decoration: none;
+}

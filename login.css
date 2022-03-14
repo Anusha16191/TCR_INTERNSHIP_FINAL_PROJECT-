@@ -1,0 +1,42 @@
+body {
+    background-image: url("/images/Capture.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .form1{
+
+   border-radius: 10px;
+   max-width: 500px;
+   margin-top: 150px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: auto;
+   border-style: inset;
+   border: 6px solid #8f9ddb;
+   padding-left: 9px;
+   padding-right: 9px;
+   padding-bottom: 9px;
+   padding-top: 9px;
+   background-color: rgba(0, 0, 0, .5);
+   color: white;
+  }
+  .form-control{
+    box-shadow: 3px 3px 3px rgb(91, 98, 194);
+}
+.btn{
+  text-decoration: none;
+  background-color: rgb(38, 23, 172);
+  color:white;
+
+  
+}
+.btn :hover{
+  color: white;
+ text-decoration: none;
+}
+h5{
+  visibility: collapse;
+  color: white;
+  padding: 10px;
+}

@@ -1,0 +1,47 @@
+.nav{
+    background-color: rgb(124, 200, 230);
+    text-shadow: 40px;
+    margin-bottom: 100px;
+   
+    
+}
+
+
+.carousel-inner img{
+    height: 620px;
+}
+
+
+.mainbox{
+    display: flex;
+
+}
+.contact_us{
+    color: black;
+    border: 6px inset rgb(107, 97, 240);
+    background-color:aliceblue;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    width: 500px;
+}
+
+.form-control{
+    box-shadow: 3px 3px 3px rgb(91, 98, 194);
+}
+.btn{
+    background-color: rgb(1, 37, 1);
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: green;
+
+}
+
+.icons img{
+    margin-right: 10px;
+}
+.foot{
+    color:white;
+}
